@@ -16,7 +16,7 @@ sendButton.addEventListener("click", async () => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Authorization": `Bearer XXXXXX`
+        "Authorization": `Bearer YOUR_API_KEY`,
       },
       body: JSON.stringify({
         model: "gpt-3.5-turbo",
